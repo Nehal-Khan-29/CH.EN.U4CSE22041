@@ -2,30 +2,33 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="css.css">
     <title>Stock Price Aggregation</title>
 </head>
 
 <body>
 
-    <div>
+    <div class="Section1">
         <h2>Stock Exchange List</h2>
         <button onclick="getStocklist()">View List</button>
         <pre id="output1"></pre>
     </div>
 
-    <div>
-        <h2>Average Stock Price in the last “m” minutes</h2>
-        <label>Ticker: <input id="ticker" value=""></label><br>
-        <label>Minutes: <input id="minutes" value=""></label><br>
+
+    <div class="Section2">
+        <h2>Average Stock Price</h2>
+        <label>Ticker:</label> <input id="ticker" value=""><br>
+        <label>Minutes:</label> <input id="minutes" value=""><br>
         <button onclick="getStockavg()">View</button>
         <pre id="output2"></pre>
     </div>
 
-    <div>
-        <h2>Correlation of Price Movement between 2 stocks in the last “m” minutes:</h2>
-        <label>Ticker 1: <input id="ticker1" value=""></label><br>
-        <label>Ticker 2: <input id="ticker2" value=""></label><br>
-        <label>Minutes: <input id="corr_minutes" value=""></label><br>
+
+    <div class="Section3">
+        <h2>Correlation of Price Movement</h2>
+        <label>Ticker 1:</label> <input id="ticker1" value=""><br>
+        <label>Ticker 2:</label> <input id="ticker2" value=""><br>
+        <label>Minutes:</label> <input id="corr_minutes" value=""><br>
         <button onclick="getStockcorrel()">Compare</button>
         <pre id="output3"></pre>
     </div>
