@@ -1,0 +1,47 @@
+/* ============================================= Main ============================================= */
+body {
+    min-height: 100vh;
+    margin: 0; 
+    background-repeat: no-repeat;
+    background-image: linear-gradient(purple, pink);
+}
+
+body, .Section1, .Section2, .Section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+label, input{
+    width: 200px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(62, 0, 62);
+    color: white;
+}
+
+pre{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(62, 0, 62);
+    color: white;
+}
