@@ -1,0 +1,15 @@
+@media only screen and (max-width: 400px){
+
+    h2{
+        font-size: large;
+    }
+
+    pre{
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(62, 0, 62);
+        color: white;
+        width: 250px;
+        overflow-x: scroll;
+    }
+}
